@@ -1,0 +1,65 @@
+body {
+	background: rgb(17, 17, 17);
+}
+.postcard {
+	background: rgb(255, 255, 255);
+	width: 550px;
+	height: 350px;
+	margin: auto;
+	top: 50%;
+	left: 50%;
+	transform: translate (-50%, -50%);
+	padding: 10px;
+	font-size: 18px;
+	font-family: "Coming Soon", cursive;
+}
+.postcard-body {
+	overflow: hidden;
+	position: relative;
+}
+.postcard-header {
+	overflow: hidden;
+}
+
+.postcard-header img {
+	float: right;
+	max-width: 50px;
+}
+postcard h1 {
+	font-size: 20px;
+	margin: 0;
+}
+
+.left-p {
+	float: left;
+	width: 50%;
+}
+.right-p {
+	float: right;
+	width: 50%;
+}
+.right-p input {
+	display: block;
+}
+
+input {
+	font-family: "Coming Soon", cursive;
+	font-size: 15px;
+}
+
+.postcard-footer {
+	padding: 80px;
+	font-size: 20px;
+	text-align: auto;
+	bottom: 50px;
+}
+
+.postcard-body input {
+	width: 190px;
+	border: none;
+	border-bottom: 1px solid grey;
+}
+.postcard-footer input {
+	border: 1px solid gray;
+	background: ligth-gray;
+}
